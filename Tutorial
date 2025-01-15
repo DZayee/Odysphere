@@ -1,1 +1,46 @@
+Prerequisites
+MetaMask/Rabby wallet installed (currently the only supported wallets).
+If you set Phantom as the main EVM wallet, you would need to disable it in order to use the testnet with MetaMask/Rabby
+ 
+Step 1: Connect to the App
+Visit https://testnet.odysphere.io/
+Click "Connect"
+When prompted, add the Odysphere testnet network RPC to your wallet
+ 
+Step 2: Get Testnet Tokens
+Join the Odysphere Discord server - testnet-faucet Channel
+Use the faucet command: $request [your-address]
+You'll receive:
+0.5 ODY (for gas) on Odysphere testnet
+10 DYM on Dymension testnet (Blumbus)
+ 
+Step 3: Transfer DYM to Odysphere
+Use the deposit button on our testnet page
+Transfer your DYM from Dymension Testnet (Blumbus) to Odysphere Testnet
 
+Alternatively, you can use Transfer via the following link - https://testnet.dymension.xyz/ibc/transfer?sourceId=blumbus_111-1&destinationId=odysphere_654689-1
+ 
+Step 4: Import Tokens to MetaMask
+Click the arrow in your wallet section
+Select "Import" for both DYM and ODY tokens
+ 
+Step 5: Open a Vault
+Click "Open Vault"
+Choose the amount of DYM to deposit
+Select how much OUSD to borrow
+Approve the transaction
+Confirm to open your vault
+ 
+Additional Actions
+Borrow more OUSD
+Repay borrowed OUSD
+Deposit OUSD into the Stability Pool
+ 
+Explore the app to familiarize yourself with its features and functionality.
+
+****Important Note:**
+The minimum debt for an open vault is 1 OUSD. When repaying, you must maintain at least 1 OUSD in debt if you wish to keep the vault open. To close a vault entirely:
+- Buy OUSD from the Dymension testnet pool
+- Transfer the OUSD to Odysphere testnet
+- Repay the full debt, including any accrued interest
+Please note that interest begins accruing immediately upon borrowing. Ensure you have enough OUSD to cover both the principal and accrued interest when closing your vault.
